@@ -27,3 +27,7 @@
     1. Directional: Light from a specific direction
     1. Pont: Emit light from a point to every direction
     1. Spot: Emits light to a specific direction in a cone-shape
+
+1. **Mesh:** Basic building block for 3D objects. It consists of vertices that are connected to form faces. It defines the shape & Appearance of an object in 3D Space. It's associated with:
+    1. Geometry: Structure & Shape of object defined using vertices & faces.
+    1. Material: It determines the appearance of the object like texture, color & the way it behaves with light.
