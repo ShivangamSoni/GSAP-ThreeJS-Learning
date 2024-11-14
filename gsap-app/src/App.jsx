@@ -6,6 +6,9 @@ import GsapTo from "./pages/GsapTo";
 import GsapFrom from "./pages/GsapFrom";
 import GsapFromTo from "./pages/GsapFromTo";
 import GsapTimeline from "./pages/GsapTimeline";
+import GsapStagger from "./pages/GsapStagger";
+import GsapScrollTrigger from "./pages/GsapScrollTrigger";
+import GsapText from "./pages/GsapText";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +34,18 @@ const router = createBrowserRouter([
             {
                 element: <GsapTimeline />,
                 path: "/gsapTimeline",
+            },
+            {
+                element: <GsapStagger />,
+                path: "/gsapStagger",
+            },
+            {
+                element: <GsapScrollTrigger />,
+                path: "/gsapScrollTrigger",
+            },
+            {
+                element: <GsapText />,
+                path: "/gsapText",
             },
         ],
     },
